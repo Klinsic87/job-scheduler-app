@@ -5,13 +5,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDbPmWgq7N3ZBn15dU6KMfsxrEmfKA0-G8",
-  authDomain: "job-scheduler-app.firebaseapp.com",
-  projectId: "job-scheduler-app",
-  storageBucket: "job-scheduler-app.firebasestorage.app",
-  messagingSenderId: "728278845121",
-  appId: "1:728278845121:web:a6f9187f7755bd334db640",
-  measurementId: "G-19Z18D3PV0"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID"
 };
 
 const app = initializeApp(firebaseConfig);
